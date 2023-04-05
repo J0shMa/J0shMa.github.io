@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: system-ui;
   margin: 0;
   padding: 0;
   background-color:#C6D7EB;
@@ -34,9 +34,7 @@ nav a {
   text-decoration: none;
 }
 
-section {
-  padding: 2em;
-}
+
 
 section h2 {
   margin-bottom: 1em;
@@ -55,18 +53,82 @@ section li {
   width: 300px;
 }
 
-section li a {
-  display: block;
-  text-decoration: none;
-}
-
-section li img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.5em;
-  color: black;
-}
-
 section h3{
   color: black;
 }
+
+#apropos table {
+   table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #1868AE;
+}
+#projets table{
+  width:100%;
+  table-layout: fixed;
+}
+
+footer{
+  padding: 30px 0px;
+  background-color: #1868AE;
+  height: 100px;
+}
+
+footer hr{
+  overflow: hidden;
+  padding-left: initial;
+  background-color: #1868AE;
+}
+
+footer a{
+  padding: 10px;
+  background-color: #1868AE;
+
+}
+
+footer li{
+    color: white;
+    padding-top: 3px;
+    display: inline;
+    padding: 10px;
+    background-color: #1868AE;
+}
+section footer {
+  background-color: #1868AE
+}
+.image-clignote  {
+   animation-duration: 5s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+}
+
+@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+section#apropos {
+  padding: 2em;
+}
+
+footer {
+  height: fit-content;
+}
+@media screen and (max-width: 600px) {
+  body {
+      column-count: 2;
+      column-gap: 20px;
+  }
+}
+#competence div {
+    padding-right: 10px;
+    font-size: 1rem;
+    font-family: system-ui;
+
+}
+#competence table {
+  width:100%;
+  table-layout: fixed;
+}
+

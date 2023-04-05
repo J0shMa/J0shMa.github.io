@@ -3,59 +3,195 @@
   <head>
     <title>Mon Portfolio</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <header>
+      <div class="image-clignote">
       <h1>Mon Portfolio</h1>
+    </div>
       <nav>
         <ul>
           <li><a href="#apropos">A propos</a></li>
           <li><a href="#projets">Projets</a></li>
+          <li><a href="#competence">Compétence</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     
     <section id="apropos">
-      <h2>A propos de moi</h2>
-      <p>
-        Bonjour, je m'appelle Joshuoy Martin j'ai 18 ans, je suis actuellement en 1ere année de but informatique au sein de l'iut de fontainebleau. 
-        Je souhaite me réorienter car malheureusement la formation proposée me correspond pas, 
-        je me vois mal travailler en tant que développeur,
-        c'est pour cela que je souhaite me réorienter en BUT MMI au sein de votre établissement.
-        La formation mmi m'intéresse surtout celle que vous proposez par rapport au projet du premier semestre qui est la création d'une Association sur les thèmes 
-        auxquels j'affectionne.
-        Je suis aussi venu lors des portes ouvertes en découvrir davantage sur votre formation. Le BUT MMI m'intéresse aussi car il est très versatile,
-        il possède beaucoup de voie différente à laquelle j'espère trouver ma voie lors de la formation.
-      </p>
+      <table>
+          <th>
+            A propos de moi ---->
+          </th> 
+          <th>
+            Bonjour, je m'appelle Joshuoy Martin j'ai 18 ans, je suis actuellement en 1ere année de but informatique au sein de l'iut de fontainebleau. Je souhaite me réorienter car malheureusement la formation proposé me correspond pas, je me vois mal travailler en tant que developper, c'est pour cela que je souhaite me réorienter en BUT MMI au sein de votre établissement. La formation MMI m'intérresent surtout celle que vous proposer par rapport au projet du premier semestre qui est la création d'une assosation sur les themes au quel j'affectionne et défends. Je suis aussi venu lors des portes ouvertes afin en découvrire d'avantage sur votre formation. Le BUT MMI m'intérésse aussi car il est tres versatile, il possede beaucoup de voie differente. 
+        </th> 
+      </table>
     </section>
+    
     <section id="projets">
-      <h2>Mes projets</h2>
+      <center>
+        <h1>Mes projets</h1>
+      </center>
+      
       <ul>
-        <li>
-          <a href="projet1.html">
-            <img src="projet1.png" alt="Projet 1">
-            <h3>Nom du projet 1</h3>
-          </a>
-        </li>
-        <li>
-          <a href="projet2.html">
-            <img src="projet2.png" alt="Projet 2">
-            <h3>Nom du projet 2</h3>
-          </a>
-        </li>
-        <!-- Ajoutez autant de projets que vous le souhaitez -->
+        <table>
+          <th>
+            <img src="img/projetjeudepaire.png" width="300" height="300">
+        </th>
+        <th>
+          <h2>Jeu de paire en C</h2>
+        
+          Le jeu de paires en C, lors de mon année en BUT informatique on eu comme SAé la création d'un jeu de paires en langage C, pour le créer on du utiliser <a href="http://www.iut-fbleau.fr/sitebp/doc/doc_bib_graphique/">la bibliothèque graphique</a> de l'IUT afin de faire le coté graphique du jeu, si voulez en voir en plus voici le rapport de la SAé : <a href="jeudepaire.pdf">ici</a>.
+        
+        </th>
+      </table>
+          <table>
+          
+            <th>
+              <h2>Création d'une entreprise et d'un site</h2>
+              On a eu comme SAé la création d'une entreprise factice et de son site, on eu du faire le business angel et le business modèle de notre entreprise.
+              Notre s'appelle CrypoLoc c'est une entreprise de location de matériel permettant au particulier de miner de la cryptomonnaie chez eux. Pour 
+              voir notre site cliquez <a href="PROJET_WEB/Index.html">ICI</a>.
+            </th>
+            <th>
+              <img src="img/ProjetWeb.png" width="400" height="250">
+
+
+            
+          </table>
+          
+        
       </ul>
 
-    
-    <footer>
-     </section>
-    
-    <section id="contact">
-      <h5>Contact</h5>
     </section>
+    <section id="competence">
+      <br>
+      <br>
+      <center><h1>Mes compétence</h1></center>
+      <br>
+     <center> <h3>Compétence informatique</h3> </center>
+      <div>
+        <br>
+        <br>
+              <center><h4>Langage de programmation</h4></center>
+        <table>
+        <th>
+          <label for="file">Langage C  </label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="50"> 50% </progress>
+        </th>
+        </table>
+        <table>
+        <th>
+          <label for="file">Java </label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="40"> 40% </progress>
+        </th>
+        
+        </table>
+          <br>
+        <br>
+              <center><h4>Langage web</h4></center>
+<table>
+        <th>
+          <label for="file">HTML5</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="70"> 70% </progress>
+        </th>
+        </table>
+        
+<table>
+        <th>
+          <label for="file">CSS3</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="60"> 50% </progress>
+        </th>
+        </table>
+
+        <table>
+        <th>
+          <label for="file">JavaScript</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="50"> 50% </progress>
+        </th>
+        </table>
+        <table>
+      <th>
+          <label for="file">PHP</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="40"> 40% </progress>
+        </th>
+        </table>
+          <br>
+        <br>
+              <center><h4>Langage de base de donnée</h4></center>
+          
+        <table>
+          <th>
+        <label for="file">SQL</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="60"> 60% </progress>
+        </th>
+        </table>
+      </div>
+      <
+      <br>
+      <br>
+     <center> <h3>Compétence linguistique</h3> </center>
+      
+      <br>
+      <br>
+     <table>
+        <th>
+          <label for="file">Français</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="100"> 100% </progress>
+        </th>
+        </table>
+        <br>
+        <table>
+        <th>
+          <label for="file">Anglais</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="50"> 50% </progress>
+        </th>
+        </table>
+<br>
+        <table>
+        <th>
+          <label for="file">Espagnole</label>
+        </th>
+        <th>
+          <progress id="file" max="100" value="30"> 30% </progress>
+        </th>
+        </table>
+        <br>
+        <br>
+
+    </section>
+    <section id="contact">
+     <footer>
+      
+        <center>
+          <h2>Contact</h2>
+        
+          <a href="https://www.linkedin.com/in/joshuoy-martin-892015269/" target="_blank"><img src="./img/linkedin.png" alt="Linkedin" width="20" height="20"></a>
+          <a href="https://twitter.com/JoshuoyM68030" target="_blank"><img src="./img/twitter.png" alt="Twitter" width="20" height="18"></a>
+          <a href="https://github.com/J0shMa" target="_blank"><img src="./img/github.png" alt="github" width="20" height="20"></a>
+      </center>
     </footer>
-    
+    </section>
   </body>
 </html>

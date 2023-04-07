@@ -59,13 +59,14 @@ section h3{
 
 #apropos table {
    table-layout: fixed;
-  width: 100%;
+  width: 75%;
   border-collapse: collapse;
   border: 3px solid #1868AE;
 }
 #projets table{
-  width:100%;
+  width:98%;
   table-layout: fixed;
+
 }
 
 footer{
@@ -128,7 +129,6 @@ footer {
 
 }
 #competence table {
-  width:100%;
+  width:25%;
   table-layout: fixed;
 }
-

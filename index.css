@@ -132,3 +132,34 @@ footer {
   width:25%;
   table-layout: fixed;
 }
+
+@media only screen and (max-width: 767px) {
+  /* Styles pour les écrans avec une largeur maximale de 767 pixels */
+  
+  /* Réduire la taille de la police */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Réduire la taille de la bannière en-tête */
+  header {
+    height: 80px;
+  }
+  
+  /* Réduire la largeur du contenu principal */
+  main {
+    width: 90%;
+  }
+  
+  /* Modifier la mise en page pour une meilleure lisibilité */
+  main article {
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Ajuster le positionnement du pied de page */
+  footer {
+    margin-top: 20px;
+  }
+}
